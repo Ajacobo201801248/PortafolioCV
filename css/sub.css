@@ -1,0 +1,58 @@
+.colorfondo{
+
+  background-color: black;
+}
+.animation {
+      transition: all 2400ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.divW {
+  width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    margin-top: 3px;
+    left: 0px;
+    opacity: 1;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.left {
+  left: calc(100% - 100px);
+}
+
+.opacity {
+  opacity: 0;
+}
+.altototal{
+  height: -webkit-fill-available;
+}
+body.preloader-site {
+    overflow: hidden;
+}
+ 
+.preloader-wrapper {
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+ 
+.preloader-wrapper .preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 120px;
+}
