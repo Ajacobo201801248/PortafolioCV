@@ -1,10 +1,3 @@
-/*--------------------- Copyright (c) 2018 -----------------------
-[Master Javascript]
-
-Project: Portfolio Responsive HTML Template
-Version: 1.0.0
-Assigned to: ThemeForest
--------------------------------------------------------------------*/
 (function($){
   "use strict";
 	
@@ -119,10 +112,10 @@ Assigned to: ThemeForest
 		});
 		var circle7 = Circles.create({
 			id: 'circles-7',
-			value: 45,
+			value: 65,
 			radius: 100,
-			number: 45,
-			text: '45%',
+			number: 65,
+			text: '65%',
 			width: 8,
 			colors: ["#202020", "#f26525"],
 			duration: 900
@@ -149,42 +142,42 @@ Assigned to: ThemeForest
 		});
 		var circle10 = Circles.create({
 			id: 'circles-10',
-			value: 10,
+			value: 50,
 			radius: 100,
-			number: 10,
-			text: '10%',
+			number: 50,
+			text: '50%',
 			width: 8,
-			colors: ["#202020", "#1d8bbe"],
+			colors: ["#202020", "#88c043"],
 			duration: 900
 		});
 		var circle11 = Circles.create({
 			id: 'circles-11',
-			value: 10,
+			value: 50,
 			radius: 100,
-			number: 10,
-			text: '10%',
+			number: 50,
+			text: '50%',
 			width: 8,
-			colors: ["#202020", "#1d8bbe"],
+			colors: ["#202020", "#ffff"],
 			duration: 900
 		});
 		var circle12 = Circles.create({
 			id: 'circles-12',
-			value: 10,
+			value: 60,
 			radius: 100,
-			number: 10,
-			text: '10%',
+			number: 60,
+			text: '60%',
 			width: 8,
-			colors: ["#202020", "#1d8bbe"],
+			colors: ["#202020", "#41b883"],
 			duration: 900
 		});
 		var circle13 = Circles.create({
 			id: 'circles-13',
-			value: 10,
+			value: 55,
 			radius: 100,
-			number: 10,
-			text: '10%',
+			number: 55,
+			text: '55%',
 			width: 8,
-			colors: ["#202020", "#1d8bbe"],
+			colors: ["#202020", "#ed1b24"],
 			duration: 900
 		});
 		var circle14 = Circles.create({
